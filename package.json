@@ -1,0 +1,32 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "Basic tech blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reethd/tech-blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "reeth",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "connect-session-sequelize": "^7.1.4",
+    "express-session": "^1.17.3"
+  },
+  "bugs": {
+    "url": "https://github.com/reethd/tech-blog/issues"
+  },
+  "homepage": "https://github.com/reethd/tech-blog#readme"
+}
