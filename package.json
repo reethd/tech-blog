@@ -2,9 +2,10 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "description": "Basic tech blog",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
